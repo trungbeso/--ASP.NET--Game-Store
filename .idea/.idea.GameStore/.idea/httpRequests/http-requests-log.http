@@ -1,0 +1,34 @@
+﻿GET http://localhost:5079/games/9
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.3.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:5079/games/9
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.3.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-15T211345.200.json
+
+###
+
+GET http://localhost:5079/games/7
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.3.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-15T211338.200.json
+
+###
+
+GET http://localhost:5079/games
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.3.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-15T210911.200.json
+
+###
+

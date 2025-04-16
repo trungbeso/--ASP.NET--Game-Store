@@ -1,0 +1,19 @@
+<changelist name="dunnu" date="1744813260311" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.GameStore/.idea/shelf/dunnu/shelved.patch" />
+  <option name="DESCRIPTION" value="dunnu" />
+  <binary>
+    <option name="BEFORE_PATH" value="GameStore.Api/obj/Debug/net9.0/GameStore.Api.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="GameStore.Api/obj/Debug/net9.0/GameStore.Api.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.GameStore/.idea/shelf/dunnu/GameStore.Api.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="GameStore.Api/obj/Debug/net9.0/GameStore.Api.assets.cache" />
+    <option name="AFTER_PATH" value="GameStore.Api/obj/Debug/net9.0/GameStore.Api.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.GameStore/.idea/shelf/dunnu/GameStore.Api.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="GameStore.Api/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="GameStore.Api/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.GameStore/.idea/shelf/dunnu/project.nuget.cache" />
+  </binary>
+</changelist>

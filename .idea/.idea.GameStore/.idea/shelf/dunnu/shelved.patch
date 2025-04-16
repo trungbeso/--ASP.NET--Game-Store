@@ -1,0 +1,206 @@
+Index: GameStore.Api/obj/Debug/net9.0/GameStore.Api.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>is_global = true\r\nbuild_property.TargetFramework = net9.0\r\nbuild_property.TargetPlatformMinVersion = \r\nbuild_property.UsingMicrosoftNETSdkWeb = true\r\nbuild_property.ProjectTypeGuids = \r\nbuild_property.InvariantGlobalization = \r\nbuild_property.PlatformNeutralAssembly = \r\nbuild_property.EnforceExtendedAnalyzerRules = \r\nbuild_property._SupportedPlatformList = Linux,macOS,Windows\r\nbuild_property.RootNamespace = GameStore.Api\r\nbuild_property.RootNamespace = GameStore.Api\r\nbuild_property.ProjectDir = C:\\Users\\HLC_2021\\Desktop\\self study\\.NET backend\\GameStore.Api\\\r\nbuild_property.EnableComHosting = \r\nbuild_property.EnableGeneratedComInterfaceComImportInterop = \r\nbuild_property.RazorLangVersion = 9.0\r\nbuild_property.SupportLocalizedComponentNames = \r\nbuild_property.GenerateRazorMetadataSourceChecksumAttributes = \r\nbuild_property.MSBuildProjectDirectory = C:\\Users\\HLC_2021\\Desktop\\self study\\.NET backend\\GameStore.Api\r\nbuild_property._RazorSourceGeneratorDebug = \r\nbuild_property.EffectiveAnalysisLevelStyle = 9.0\r\nbuild_property.EnableCodeStyleSeverity = \r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/GameStore.Api/obj/Debug/net9.0/GameStore.Api.GeneratedMSBuildEditorConfig.editorconfig b/GameStore.Api/obj/Debug/net9.0/GameStore.Api.GeneratedMSBuildEditorConfig.editorconfig
+--- a/GameStore.Api/obj/Debug/net9.0/GameStore.Api.GeneratedMSBuildEditorConfig.editorconfig	(revision 4b1b7372fc6e4601bf3f9142b2d9fef3d5f5537c)
++++ b/GameStore.Api/obj/Debug/net9.0/GameStore.Api.GeneratedMSBuildEditorConfig.editorconfig	(date 1744813215086)
+@@ -9,13 +9,12 @@
+ build_property._SupportedPlatformList = Linux,macOS,Windows
+ build_property.RootNamespace = GameStore.Api
+ build_property.RootNamespace = GameStore.Api
+-build_property.ProjectDir = C:\Users\HLC_2021\Desktop\self study\.NET backend\GameStore.Api\
++build_property.ProjectDir = D:\DotNet\game-store\--ASP.NET--Game-Store\GameStore.Api\
+ build_property.EnableComHosting = 
+ build_property.EnableGeneratedComInterfaceComImportInterop = 
+-build_property.RazorLangVersion = 9.0
++build_property.RazorLangVersion = 8.0
+ build_property.SupportLocalizedComponentNames = 
+ build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+-build_property.MSBuildProjectDirectory = C:\Users\HLC_2021\Desktop\self study\.NET backend\GameStore.Api
++build_property.MSBuildProjectDirectory = D:\DotNet\game-store\--ASP.NET--Game-Store\GameStore.Api
+ build_property._RazorSourceGeneratorDebug = 
+ build_property.EffectiveAnalysisLevelStyle = 9.0
+-build_property.EnableCodeStyleSeverity = 
+Index: GameStore.Api/obj/GameStore.Api.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n<Project ToolsVersion=\"14.0\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\r\n  <PropertyGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <RestoreSuccess Condition=\" '$(RestoreSuccess)' == '' \">True</RestoreSuccess>\r\n    <RestoreTool Condition=\" '$(RestoreTool)' == '' \">NuGet</RestoreTool>\r\n    <ProjectAssetsFile Condition=\" '$(ProjectAssetsFile)' == '' \">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>\r\n    <NuGetPackageRoot Condition=\" '$(NuGetPackageRoot)' == '' \">$(UserProfile)\\.nuget\\packages\\</NuGetPackageRoot>\r\n    <NuGetPackageFolders Condition=\" '$(NuGetPackageFolders)' == '' \">C:\\Users\\HLC_2021\\.nuget\\packages\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages</NuGetPackageFolders>\r\n    <NuGetProjectStyle Condition=\" '$(NuGetProjectStyle)' == '' \">PackageReference</NuGetProjectStyle>\r\n    <NuGetToolVersion Condition=\" '$(NuGetToolVersion)' == '' \">6.13.2</NuGetToolVersion>\r\n  </PropertyGroup>\r\n  <ItemGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <SourceRoot Include=\"C:\\Users\\HLC_2021\\.nuget\\packages\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\\" />\r\n  </ItemGroup>\r\n</Project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/GameStore.Api/obj/GameStore.Api.csproj.nuget.g.props b/GameStore.Api/obj/GameStore.Api.csproj.nuget.g.props
+--- a/GameStore.Api/obj/GameStore.Api.csproj.nuget.g.props	(revision 4b1b7372fc6e4601bf3f9142b2d9fef3d5f5537c)
++++ b/GameStore.Api/obj/GameStore.Api.csproj.nuget.g.props	(date 1744813223632)
+@@ -5,12 +5,11 @@
+     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\HLC_2021\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
++    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Admin\.nuget\packages\</NuGetPackageFolders>
+     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.13.2</NuGetToolVersion>
++    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.12.2</NuGetToolVersion>
+   </PropertyGroup>
+   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+-    <SourceRoot Include="C:\Users\HLC_2021\.nuget\packages\" />
+-    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
++    <SourceRoot Include="C:\Users\Admin\.nuget\packages\" />
+   </ItemGroup>
+ </Project>
+\ No newline at end of file
+Index: GameStore.Api/obj/GameStore.Api.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"format\": 1,\r\n  \"restore\": {\r\n    \"C:\\\\Users\\\\HLC_2021\\\\Desktop\\\\self study\\\\.NET backend\\\\GameStore.Api\\\\GameStore.Api.csproj\": {}\r\n  },\r\n  \"projects\": {\r\n    \"C:\\\\Users\\\\HLC_2021\\\\Desktop\\\\self study\\\\.NET backend\\\\GameStore.Api\\\\GameStore.Api.csproj\": {\r\n      \"version\": \"1.0.0\",\r\n      \"restore\": {\r\n        \"projectUniqueName\": \"C:\\\\Users\\\\HLC_2021\\\\Desktop\\\\self study\\\\.NET backend\\\\GameStore.Api\\\\GameStore.Api.csproj\",\r\n        \"projectName\": \"GameStore.Api\",\r\n        \"projectPath\": \"C:\\\\Users\\\\HLC_2021\\\\Desktop\\\\self study\\\\.NET backend\\\\GameStore.Api\\\\GameStore.Api.csproj\",\r\n        \"packagesPath\": \"C:\\\\Users\\\\HLC_2021\\\\.nuget\\\\packages\\\\\",\r\n        \"outputPath\": \"C:\\\\Users\\\\HLC_2021\\\\Desktop\\\\self study\\\\.NET backend\\\\GameStore.Api\\\\obj\\\\\",\r\n        \"projectStyle\": \"PackageReference\",\r\n        \"fallbackFolders\": [\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\"\r\n        ],\r\n        \"configFilePaths\": [\r\n          \"C:\\\\Users\\\\HLC_2021\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\"\r\n        ],\r\n        \"originalTargetFrameworks\": [\r\n          \"net9.0\"\r\n        ],\r\n        \"sources\": {\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n          \"https://api.nuget.org/v3/index.json\": {}\r\n        },\r\n        \"frameworks\": {\r\n          \"net9.0\": {\r\n            \"targetAlias\": \"net9.0\",\r\n            \"projectReferences\": {}\r\n          }\r\n        },\r\n        \"warningProperties\": {\r\n          \"warnAsError\": [\r\n            \"NU1605\"\r\n          ]\r\n        },\r\n        \"restoreAuditProperties\": {\r\n          \"enableAudit\": \"true\",\r\n          \"auditLevel\": \"low\",\r\n          \"auditMode\": \"direct\"\r\n        },\r\n        \"SdkAnalysisLevel\": \"9.0.200\"\r\n      },\r\n      \"frameworks\": {\r\n        \"net9.0\": {\r\n          \"targetAlias\": \"net9.0\",\r\n          \"imports\": [\r\n            \"net461\",\r\n            \"net462\",\r\n            \"net47\",\r\n            \"net471\",\r\n            \"net472\",\r\n            \"net48\",\r\n            \"net481\"\r\n          ],\r\n          \"assetTargetFallback\": true,\r\n          \"warn\": true,\r\n          \"frameworkReferences\": {\r\n            \"Microsoft.AspNetCore.App\": {\r\n              \"privateAssets\": \"none\"\r\n            },\r\n            \"Microsoft.NETCore.App\": {\r\n              \"privateAssets\": \"all\"\r\n            }\r\n          },\r\n          \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\9.0.203/PortableRuntimeIdentifierGraph.json\"\r\n        }\r\n      }\r\n    }\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/GameStore.Api/obj/GameStore.Api.csproj.nuget.dgspec.json b/GameStore.Api/obj/GameStore.Api.csproj.nuget.dgspec.json
+--- a/GameStore.Api/obj/GameStore.Api.csproj.nuget.dgspec.json	(revision 4b1b7372fc6e4601bf3f9142b2d9fef3d5f5537c)
++++ b/GameStore.Api/obj/GameStore.Api.csproj.nuget.dgspec.json	(date 1744813223727)
+@@ -1,31 +1,25 @@
+ {
+   "format": 1,
+   "restore": {
+-    "C:\\Users\\HLC_2021\\Desktop\\self study\\.NET backend\\GameStore.Api\\GameStore.Api.csproj": {}
++    "D:\\DotNet\\game-store\\--ASP.NET--Game-Store\\GameStore.Api\\GameStore.Api.csproj": {}
+   },
+   "projects": {
+-    "C:\\Users\\HLC_2021\\Desktop\\self study\\.NET backend\\GameStore.Api\\GameStore.Api.csproj": {
++    "D:\\DotNet\\game-store\\--ASP.NET--Game-Store\\GameStore.Api\\GameStore.Api.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "C:\\Users\\HLC_2021\\Desktop\\self study\\.NET backend\\GameStore.Api\\GameStore.Api.csproj",
++        "projectUniqueName": "D:\\DotNet\\game-store\\--ASP.NET--Game-Store\\GameStore.Api\\GameStore.Api.csproj",
+         "projectName": "GameStore.Api",
+-        "projectPath": "C:\\Users\\HLC_2021\\Desktop\\self study\\.NET backend\\GameStore.Api\\GameStore.Api.csproj",
+-        "packagesPath": "C:\\Users\\HLC_2021\\.nuget\\packages\\",
+-        "outputPath": "C:\\Users\\HLC_2021\\Desktop\\self study\\.NET backend\\GameStore.Api\\obj\\",
++        "projectPath": "D:\\DotNet\\game-store\\--ASP.NET--Game-Store\\GameStore.Api\\GameStore.Api.csproj",
++        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
++        "outputPath": "D:\\DotNet\\game-store\\--ASP.NET--Game-Store\\GameStore.Api\\obj\\",
+         "projectStyle": "PackageReference",
+-        "fallbackFolders": [
+-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+-        ],
+         "configFilePaths": [
+-          "C:\\Users\\HLC_2021\\AppData\\Roaming\\NuGet\\NuGet.Config",
+-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
++          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+         ],
+         "originalTargetFrameworks": [
+           "net9.0"
+         ],
+         "sources": {
+-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+           "https://api.nuget.org/v3/index.json": {}
+         },
+         "frameworks": {
+@@ -44,7 +38,7 @@
+           "auditLevel": "low",
+           "auditMode": "direct"
+         },
+-        "SdkAnalysisLevel": "9.0.200"
++        "SdkAnalysisLevel": "9.0.100"
+       },
+       "frameworks": {
+         "net9.0": {
+@@ -68,7 +62,7 @@
+               "privateAssets": "all"
+             }
+           },
+-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
++          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.5.24307.3/PortableRuntimeIdentifierGraph.json"
+         }
+       }
+     }
+Index: GameStore.Api/obj/project.assets.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"version\": 3,\r\n  \"targets\": {\r\n    \"net9.0\": {}\r\n  },\r\n  \"libraries\": {},\r\n  \"projectFileDependencyGroups\": {\r\n    \"net9.0\": []\r\n  },\r\n  \"packageFolders\": {\r\n    \"C:\\\\Users\\\\HLC_2021\\\\.nuget\\\\packages\\\\\": {},\r\n    \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\": {}\r\n  },\r\n  \"project\": {\r\n    \"version\": \"1.0.0\",\r\n    \"restore\": {\r\n      \"projectUniqueName\": \"C:\\\\Users\\\\HLC_2021\\\\Desktop\\\\self study\\\\.NET backend\\\\GameStore.Api\\\\GameStore.Api.csproj\",\r\n      \"projectName\": \"GameStore.Api\",\r\n      \"projectPath\": \"C:\\\\Users\\\\HLC_2021\\\\Desktop\\\\self study\\\\.NET backend\\\\GameStore.Api\\\\GameStore.Api.csproj\",\r\n      \"packagesPath\": \"C:\\\\Users\\\\HLC_2021\\\\.nuget\\\\packages\\\\\",\r\n      \"outputPath\": \"C:\\\\Users\\\\HLC_2021\\\\Desktop\\\\self study\\\\.NET backend\\\\GameStore.Api\\\\obj\\\\\",\r\n      \"projectStyle\": \"PackageReference\",\r\n      \"fallbackFolders\": [\r\n        \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\"\r\n      ],\r\n      \"configFilePaths\": [\r\n        \"C:\\\\Users\\\\HLC_2021\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n        \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\r\n        \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\"\r\n      ],\r\n      \"originalTargetFrameworks\": [\r\n        \"net9.0\"\r\n      ],\r\n      \"sources\": {\r\n        \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n        \"https://api.nuget.org/v3/index.json\": {}\r\n      },\r\n      \"frameworks\": {\r\n        \"net9.0\": {\r\n          \"targetAlias\": \"net9.0\",\r\n          \"projectReferences\": {}\r\n        }\r\n      },\r\n      \"warningProperties\": {\r\n        \"warnAsError\": [\r\n          \"NU1605\"\r\n        ]\r\n      },\r\n      \"restoreAuditProperties\": {\r\n        \"enableAudit\": \"true\",\r\n        \"auditLevel\": \"low\",\r\n        \"auditMode\": \"direct\"\r\n      },\r\n      \"SdkAnalysisLevel\": \"9.0.200\"\r\n    },\r\n    \"frameworks\": {\r\n      \"net9.0\": {\r\n        \"targetAlias\": \"net9.0\",\r\n        \"imports\": [\r\n          \"net461\",\r\n          \"net462\",\r\n          \"net47\",\r\n          \"net471\",\r\n          \"net472\",\r\n          \"net48\",\r\n          \"net481\"\r\n        ],\r\n        \"assetTargetFallback\": true,\r\n        \"warn\": true,\r\n        \"frameworkReferences\": {\r\n          \"Microsoft.AspNetCore.App\": {\r\n            \"privateAssets\": \"none\"\r\n          },\r\n          \"Microsoft.NETCore.App\": {\r\n            \"privateAssets\": \"all\"\r\n          }\r\n        },\r\n        \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\9.0.203/PortableRuntimeIdentifierGraph.json\"\r\n      }\r\n    }\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/GameStore.Api/obj/project.assets.json b/GameStore.Api/obj/project.assets.json
+--- a/GameStore.Api/obj/project.assets.json	(revision 4b1b7372fc6e4601bf3f9142b2d9fef3d5f5537c)
++++ b/GameStore.Api/obj/project.assets.json	(date 1744813223688)
+@@ -8,31 +8,24 @@
+     "net9.0": []
+   },
+   "packageFolders": {
+-    "C:\\Users\\HLC_2021\\.nuget\\packages\\": {},
+-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
++    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+   },
+   "project": {
+     "version": "1.0.0",
+     "restore": {
+-      "projectUniqueName": "C:\\Users\\HLC_2021\\Desktop\\self study\\.NET backend\\GameStore.Api\\GameStore.Api.csproj",
++      "projectUniqueName": "D:\\DotNet\\game-store\\--ASP.NET--Game-Store\\GameStore.Api\\GameStore.Api.csproj",
+       "projectName": "GameStore.Api",
+-      "projectPath": "C:\\Users\\HLC_2021\\Desktop\\self study\\.NET backend\\GameStore.Api\\GameStore.Api.csproj",
+-      "packagesPath": "C:\\Users\\HLC_2021\\.nuget\\packages\\",
+-      "outputPath": "C:\\Users\\HLC_2021\\Desktop\\self study\\.NET backend\\GameStore.Api\\obj\\",
++      "projectPath": "D:\\DotNet\\game-store\\--ASP.NET--Game-Store\\GameStore.Api\\GameStore.Api.csproj",
++      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
++      "outputPath": "D:\\DotNet\\game-store\\--ASP.NET--Game-Store\\GameStore.Api\\obj\\",
+       "projectStyle": "PackageReference",
+-      "fallbackFolders": [
+-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+-      ],
+       "configFilePaths": [
+-        "C:\\Users\\HLC_2021\\AppData\\Roaming\\NuGet\\NuGet.Config",
+-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
++        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+       ],
+       "originalTargetFrameworks": [
+         "net9.0"
+       ],
+       "sources": {
+-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+         "https://api.nuget.org/v3/index.json": {}
+       },
+       "frameworks": {
+@@ -51,7 +44,7 @@
+         "auditLevel": "low",
+         "auditMode": "direct"
+       },
+-      "SdkAnalysisLevel": "9.0.200"
++      "SdkAnalysisLevel": "9.0.100"
+     },
+     "frameworks": {
+       "net9.0": {
+@@ -75,7 +68,7 @@
+             "privateAssets": "all"
+           }
+         },
+-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
++        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.5.24307.3/PortableRuntimeIdentifierGraph.json"
+       }
+     }
+   }
+Index: GameStore.Api/obj/Debug/net9.0/GameStore.Api.AssemblyInfo.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//------------------------------------------------------------------------------\r\n// <auto-generated>\r\n//     This code was generated by a tool.\r\n//\r\n//     Changes to this file may cause incorrect behavior and will be lost if\r\n//     the code is regenerated.\r\n// </auto-generated>\r\n//------------------------------------------------------------------------------\r\n\r\nusing System;\r\nusing System.Reflection;\r\n\r\n[assembly: System.Reflection.AssemblyCompanyAttribute(\"GameStore.Api\")]\r\n[assembly: System.Reflection.AssemblyConfigurationAttribute(\"Debug\")]\r\n[assembly: System.Reflection.AssemblyFileVersionAttribute(\"1.0.0.0\")]\r\n[assembly: System.Reflection.AssemblyInformationalVersionAttribute(\"1.0.0\")]\r\n[assembly: System.Reflection.AssemblyProductAttribute(\"GameStore.Api\")]\r\n[assembly: System.Reflection.AssemblyTitleAttribute(\"GameStore.Api\")]\r\n[assembly: System.Reflection.AssemblyVersionAttribute(\"1.0.0.0\")]\r\n\r\n// Generated by the MSBuild WriteCodeFragment class.\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/GameStore.Api/obj/Debug/net9.0/GameStore.Api.AssemblyInfo.cs b/GameStore.Api/obj/Debug/net9.0/GameStore.Api.AssemblyInfo.cs
+--- a/GameStore.Api/obj/Debug/net9.0/GameStore.Api.AssemblyInfo.cs	(revision 4b1b7372fc6e4601bf3f9142b2d9fef3d5f5537c)
++++ b/GameStore.Api/obj/Debug/net9.0/GameStore.Api.AssemblyInfo.cs	(date 1744813215233)
+@@ -13,7 +13,7 @@
+ [assembly: System.Reflection.AssemblyCompanyAttribute("GameStore.Api")]
+ [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+ [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
++[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b1b7372fc6e4601bf3f9142b2d9fef3d5f5537c")]
+ [assembly: System.Reflection.AssemblyProductAttribute("GameStore.Api")]
+ [assembly: System.Reflection.AssemblyTitleAttribute("GameStore.Api")]
+ [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
