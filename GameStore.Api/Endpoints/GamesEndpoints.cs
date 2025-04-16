@@ -1,4 +1,7 @@
-﻿using GameStore.Api.Dtos;
+﻿using GameStore.Api.Data;
+using GameStore.Api.Dtos;
+using GameStore.Api.Entities;
+using GameStore.Api.Mapping;
 
 namespace GameStore.Api.Endpoints;
 
@@ -18,28 +21,32 @@ public static class GamesEndpoints
     {
         var group = app.MapGroup("games").WithParameterValidation();
 
+        //Get all games
         group.MapGet("/", () => Games);
 
-        group.MapGet("/{id}", (int id) => 
+        //Get game by id
+        group.MapGet("/{id}", (int id, GameStoreContext dbContext) => 
         {
-            var game = Games.Find(game => game.Id == id);
+            Game? game = dbContext.Games.Find(id);
+
             return game is null ? Results.NotFound() : Results.Ok(game);
         }).WithName(GetGameEndpointName);
 
-        group.MapPost("/", (CreateGameDto newGame) =>
+        //Create a new game
+        group.MapPost("/", (CreateGameDto newGame, GameStoreContext dbContext) =>
         {
+            Game game = GameMapping.ToEntity(newGame);
+            game.Genre = dbContext.Genres.Find(newGame.GenreId);
 
-            GameDto game = new(
-                Games.Count + 1,
-                newGame.Name,
-                newGame.Genre,
-                newGame.Price,
-                newGame.ReleaseDate
-            );
-            Games.Add(game);
-            return Results.CreatedAtRoute(GetGameEndpointName, new { id = game }, game);
-        }).WithParameterValidation();
+            dbContext.Games.Add(game);
+            dbContext.SaveChanges();
 
+            return Results.CreatedAtRoute(
+                GetGameEndpointName, 
+                new { id = game }, game.ToDto());
+        });
+
+        //Update an existing game
         group.MapPut("/{id}", (int id, UpdateGameDto updateGame) =>
         {
             var index = Games.FindIndex(game => game.Id == id);

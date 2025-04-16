@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v9.0": {
       "GameStore.Api/1.0.0": {
         "dependencies": {
+          "Microsoft.Data.Sqlite.Core": "9.0.4",
           "Microsoft.EntityFrameworkCore.Design": "9.0.4",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
           "MinimalApis.Extensions": "0.11.0"
@@ -788,7 +789,14 @@
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
-      "System.Text.Json/9.0.4": {},
+      "System.Text.Json/9.0.4": {
+        "runtime": {
+          "lib/net9.0/System.Text.Json.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
       "System.Threading.Channels/7.0.0": {}
     }
   },
